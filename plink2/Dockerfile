@@ -7,6 +7,8 @@ LABEL version="1.0" \
       department="UCL BioResource" \
       organisation="University College London"
 
+WORKDIR /app
+
 ENV PLINK_VERSION 1.90
 ENV PLINK_ZIP plink_linux_x86_64.zip
 ENV PLINK_DIR /opt/plink2
